@@ -3,7 +3,7 @@
 void posneg(int a){
 	if(a > 0)
 		printf("The given number %d is a positive number", a);
-	if(a == 0)
+	else if(a == 0)
 		printf("The given number is a 0");
 	else 
 		printf("The given number %d is a negative number", a);
@@ -13,4 +13,5 @@ int main(){
 	printf("Enter the number you want to simulate: ");
 	scanf("%d", &n);
 	posneg(n);
+	return 0;
 }
