@@ -1,5 +1,5 @@
 #Importing the wikipedia library 
-
+import wikipedia
 def curate_date(data_list):
     curated_results = {}
     for item in data_list:
@@ -15,4 +15,4 @@ def curate_date(data_list):
 #Your "Dataset"
 my_data = ["Ebenezer Scrooge", "Machine Learning", "Git Bash"]
 link = curate_data(my_data)
-
+ 
