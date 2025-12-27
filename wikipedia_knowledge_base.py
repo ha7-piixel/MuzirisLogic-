@@ -1,6 +1,6 @@
 #Importing the wikipedia library 
 import wikipedia
-def curate_date(data_list):
+def curate_data(data_list):
     curated_results = {}
     for item in data_list:
         try:
